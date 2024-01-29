@@ -20,6 +20,7 @@ cd $FFMPEG_VERSION
 
 ./configure \
     --enable-pic \
+    --arch=aarch64 \
     $FFMPEG_AUDIO_FLAGS \
     $FFMPEG_AUDIO_FLAGS_MUXERS \
     --prefix=$PREFIX \

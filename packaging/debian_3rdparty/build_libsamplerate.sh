@@ -14,6 +14,7 @@ cd $LIBSAMPLERATE_VERSION
 
 CPPFLAGS=-fPIC ./configure \
     --prefix=$PREFIX \
+    --build=arm \
     $LIBSAMPLERATE_FLAGS \
     $SHARED_OR_STATIC
 make
